@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/fa9cc6ba57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                 <img src="/images/logo.png" class="logo">
+                <p>McGill Student</p>
+                <h1>Hi, I'm  <span>Latif</span><br> Karimi </h1>
+            </div>
+        </div>
+    </div>
+    <!--------------About--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Abdul Latif Karimi</h1>
+                    <h1>McGill Student</h1><br>
+                    <p>Hello! I’m Latif, right now I am McGill (School of Continuing Studies) as Full Stack Developer student.
+                        I graduated from Bachelor of Business Administration (BBA) and I was working as Admin/Accounting and website designing for 14 years in my home country, I came to Canada in 2018, due to some language barrier, I decided to change my career to Full stack developer, which, I really interesting and love  to learn new computer programs and always trying to find opportunity to learn, I will continue to learn more and become a Full Stack Developer in the future.
+                        </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Disiner</span><br> Technical ability, HTML, CSS & JavaScript, Analytical skills </li>
+                        <li><span>Administration</span><br>Organizing and maintaining records, files, and databases, Organizing office equipment and inventory </li>
+                        <li><span>Accountent</span><br>Cost accounting, Tax accounting,Knowledge of Accounting Practices,Proficiency in Accounting Software,Ability to Analyze Data etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>McGill Student of Full Stack Devloper</li>
+                        <li><span>2019 - 2022</span><br>working as sales-persson</li>
+                        <li><span>2003 - 2019</span><br>Admin, Accounting, Web Dsining</li>
+                    </ul>
+                </div>    
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>McGill Student of Full Stack Devloper</li>
+                        <li><span>2010 - 2014</span><br> Studied Bachelor of Business Administration</li>
+                        <li><span>1987 - 1999</span><br>Studied High School</li>
+                    </ul>
+                </div>
+            </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+<!-----------------services------------------->
+<div id="services">
+    <div class="container">
+    <h1 class="sub-title">My Services...Futuer Plan...</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-sharp fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>As a web designer we focused on product design and web applications, mainly because of our unique vision of design, great creativity and ability to deliver most of the solutions
+                in less than 48 hours
+                Either it's a new HTML5 WEBSITE / WORDPRESS / LANDING PAGE / LOGO / UI/UX - with us, it's a rockstar!
+                </p>
+        
+        </div>
+        <div>
+            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+            <h2>App Design</h2>
+            <p>We will create user-friendly web applications with mobile-first interfaces, whether you need an e-commerce platform or a business web portal that works on different devices or browsers, we will got you covered.</p>
+       
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Mobile Apps</h2>
+            <p>We develop custom native and cross-platform mobile apps, for both iOS and Android platforms, that are both sustainable and scalable. This means that system updates will not disrupt your business operation and all your device’s features will be upgraded to their newest version.</p>
+        
+        </div>
+    </div>
+ </div> 
+ </div> 
+  <!--------------------portfolio------------------->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Futuer plan...</h1>
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app will connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app will connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shoping App</h3>
+                    <p>The app will connects you to the talented people around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">See More...</a>
+    </div>
+
+  </div>
+   <!-------------contact-------------->
+   <a href="#"></a>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-square-envelope"></i>contct@example.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>(514) 123-4567</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+           <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2" >Submit</button>
+            </form>
+        </div>
+    </div>
+ <div class="copyright">
+    <p>Copyright © Latif Karimi. Made for studies project.</p>
+
+ </div>
+</div>
+
+   </div>
+   <script>
+        let tablinks=document.getElementsByClassName("tab-links");
+        let tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        
+    }
+    </script>
+    <script>
+        let sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";   
+        }
+    </script>
+</body>
+</html> 
